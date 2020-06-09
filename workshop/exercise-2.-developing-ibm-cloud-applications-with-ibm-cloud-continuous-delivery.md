@@ -1,6 +1,6 @@
 # Exercise 2. Developing IBM Cloud applications with IBM Cloud Continuous Delivery
 
-\#\#\#\# Estimated time
+#### Estimated time
 
 01:30
 
@@ -71,7 +71,8 @@ In this exercise, you complete the following tasks:
 
 In this part, you re-create the sample Node.js starter application that you deleted at the end of Exercise 1. Complete the following tasks:
 
-* [ ] Open the IBM Cloud console in your web browser: [https://cloud.ibm.com   ](https://cloud.ibm.com
+* [ ] Open the IBM Cloud console in your web browser: [https://cloud.ibm.com
+   ](https://cloud.ibm.com
   %20
   )
 * [ ] Log in to your IBM Cloud account. Enter your IBM ID and password, as shown in the following figure.
