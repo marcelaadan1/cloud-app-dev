@@ -64,15 +64,14 @@ In this exercise, you complete the following tasks:
 11. Clean up the application and Continuous Delivery service and tools.
 
 {% hint style="warning" %}
-‼ If you encounter issues when you follow this exercise, check the Troubleshooting section.
+If you encounter issues when you follow this exercise, check the Troubleshooting section.
 {% endhint %}
 
 ### Part 1. Re-creating your application
 
 In this part, you re-create the sample Node.js starter application that you deleted at the end of Exercise 1. Complete the following tasks:
 
-* [ ] Open the IBM Cloud console in your web browser: [https://cloud.ibm.com
-   ](https://cloud.ibm.com
+* [ ] Open the IBM Cloud console in your web browser: [https://cloud.ibm.com](https://cloud.ibm.com
   %20
   )
 * [ ] Log in to your IBM Cloud account. Enter your IBM ID and password, as shown in the following figure.
@@ -80,7 +79,7 @@ In this part, you re-create the sample Node.js starter application that you dele
 ![](../.gitbook/assets/image001.png)
 
 * [ ] Click **Continue**. Confirm that your IBM Cloud Dashboard page loads.
-* [ ] Perform the steps in [Exercise 1, Part 3, “Creating an application”](https://app.gitbook.com/@marcela-adan1/s/essentials-of-cloud-application-development/~/drafts/-M8wandhLirZoWs-qfjD/workshop/exercise-1.-getting-started-with-cloud-foundry-apps-on-ibm-cloud#part-3-creating-an-application) to create a Node.js application.
+* [ ] Perform the steps in [Exercise 1, Part 3, “Creating an application”](https://github.com/marcelaadan1/cloud-app-dev/blob/master/workshop/exercise-1.-getting-started-with-cloud-foundry-apps-on-ibm-cloud.md#part-3-creating-an-application) to create a Node.js application.
 
 ### Part 2. Examining the IBM Cloud application
 
@@ -338,7 +337,7 @@ You can see that the Outgoing pane is clear because all commits were pushed to t
 
 ![](../.gitbook/assets/image041%20%281%29.png)
 
-* [ ]  **E**xamine the Git repository commits log. Click the back-arrow \(**Back to Toolchains**\) icon in the upper left of the Eclipse Orion Web IDE page, as shown in following figure
+* [ ]  Examine the Git repository commits log. Click the back-arrow \(**Back to Toolchains**\) icon in the upper left of the Eclipse Orion Web IDE page, as shown in following figure
 
 ![](../.gitbook/assets/image041.png)
 
@@ -348,7 +347,7 @@ You can see that the Outgoing pane is clear because all commits were pushed to t
 
 ![](../.gitbook/assets/image042.png)
 
-* [ ]  ****Click **Git** from the Continuous Delivery Toolchain dashboard**.**
+* [ ]  Click **Git** from the Continuous Delivery Toolchain dashboard.
 * [ ] Click **Repository** from the left navigation bar.
 * [ ] Click **Commits**, as shown in the following figure. Examine the Git COMMITS for `vy301-xxx-nodesample.`
 
@@ -401,7 +400,8 @@ There are two ways to deploy an application to your IBM Cloud account:
 
 You can publish changes to your application directly from the Eclipse Orion Web IDE to IBM Cloud. With this technique, you can quickly test changes to your code on an actual IBM Cloud account by completing the following tasks:
 
-* [ ]  ****In the Eclipse Orion Web IDE, edit the message in the sample application web page:   On the Toolchains page, click **Eclipse Orion Web IDE** and switch to Edit mode from the left navigation bar.
+* [ ]  In the Eclipse Orion Web IDE, edit the message in the sample application web page.
+On the Toolchains page, click **Eclipse Orion Web IDE** and switch to Edit mode from the left navigation bar.
 * [ ] Open index.html in the public folder, as shown in the following figure.
 
 ![](../.gitbook/assets/image049.jpg)
@@ -411,7 +411,7 @@ You can publish changes to your application directly from the Eclipse Orion Web 
 ![](../.gitbook/assets/image050.jpg)
 
 * [ ] All the code changes are automatically saved. To force the save action, press **Ctrl + S**.
-* [ ]  ****Deploy the application directly from your project workspace. Configure the application deployment settings by clicking **Create new** **launch configuration** and then the plus button \(+\) in the upper center of the Eclipse Orion Web IDE window, as shown in following figure.
+* [ ] Deploy the application directly from your project workspace. Configure the application deployment settings by clicking **Create new launch configuration** and then the plus button \(+\) in the upper center of the Eclipse Orion Web IDE window, as shown in following figure.
 
 ![](../.gitbook/assets/image051.jpg)
 
@@ -451,7 +451,7 @@ The _IBM Cloud Live Sync_ feature automatically pushes any saved changes in the 
 
 To automatically push changes to IBM Cloud, complete the following tasks:
 
-* [ ]  ****Return to the Eclipse Orion Web IDE web page and enable the Live Edit feature.  Near the server’s toolbar, click the switch icon next to **Live Edit,** as shown in the following figure.
+* [ ]  Return to the Eclipse Orion Web IDE web page and enable the Live Edit feature.  Near the server’s toolbar, click the switch icon next to **Live Edit,** as shown in the following figure.
 
 ![](../.gitbook/assets/image058.jpg)
 
@@ -483,7 +483,7 @@ To automatically push changes to IBM Cloud, complete the following tasks:
 ✍ With the Live Edit feature, you do not need to save or deploy your static files. Changes are saved and deployed to your IBM Cloud account automatically. Examples of static files include HTML web pages and Cascading Style Sheets \(CSS\). However, you might still need to commit your files in Git if you want other people to see them.
 {% endhint %}
 
-* [ ]  ****Confirm that the changes appear in your IBM Cloud application. In the server toolbar, click the **Open the Deployed App** icon to view the changes to your application, as shown in the following figure.
+* [ ]  Confirm that the changes appear in your IBM Cloud application. In the server toolbar, click the **Open the Deployed App** icon to view the changes to your application, as shown in the following figure.
 
 ![](../.gitbook/assets/image064.jpg)
 
@@ -507,7 +507,7 @@ In this part, you clean up the application and the Continuous Delivery Toolchain
 
 ![](../.gitbook/assets/image068.jpg)
 
-* [ ]  ****Select **Remove project**. 
+* [ ]  Select **Remove project**. 
 * [ ] Click **Remove project** as shown in the following figure.
 
 ![](../.gitbook/assets/image069.jpg)
