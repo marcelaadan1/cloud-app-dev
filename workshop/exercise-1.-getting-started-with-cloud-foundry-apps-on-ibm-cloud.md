@@ -46,7 +46,7 @@ In this exercise, you complete the following tasks:
 6. Delete the sample application
 
 {% hint style="warning" %}
-‼ If you encounter any issues when you follow this exercise, see the Troubleshooting section. &lt;&lt; Add link&gt;&gt;
+If you encounter any issues when you follow this exercise, see [Troubleshooting](https://marcela-adan1.gitbook.io/essentials-of-cloud-application-development/workshop/exercise-2.-developing-ibm-cloud-applications-with-ibm-cloud-continuous-delivery#troubleshooting)
 {% endhint %}
 
 ### Part 1. Obtaining your randomly generated key
