@@ -79,7 +79,7 @@ In this part, you re-create the sample Node.js starter application that you dele
 ![](../.gitbook/assets/image001.png)
 
 * [ ] Click **Continue**. Confirm that your IBM Cloud Dashboard page loads.
-* [ ] Perform the steps in [Exercise 1, Part 3, “Creating an application”](https://github.com/marcelaadan1/cloud-app-dev/blob/master/workshop/exercise-1.-getting-started-with-cloud-foundry-apps-on-ibm-cloud.md#part-3-creating-an-application) to create a Node.js application.
+* [ ] Perform the steps in [Exercise 1, Part 3, “Creating an application”](https://marcela-adan1.gitbook.io/essentials-of-cloud-application-development/workshop/exercise-1.-getting-started-with-cloud-foundry-apps-on-ibm-cloud#part-3-creating-an-application) to create a Node.js application.
 
 ### Part 2. Examining the IBM Cloud application
 
