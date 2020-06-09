@@ -1,6 +1,6 @@
 # Exercise 1. Getting started with Cloud Foundry apps on IBM Cloud
 
-\#\#\#\# Estimated time
+#### Estimated time
 
 1:00
 
