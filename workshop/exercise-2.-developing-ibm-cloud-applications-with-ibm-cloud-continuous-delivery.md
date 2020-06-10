@@ -6,21 +6,21 @@
 
 ## Overview
 
-Development Operations \(DevOps\) is a software methodology that integrates application development and information technology \(IT\) operations. 
+Development Operations \(DevOps\) is a software methodology that integrates application development and information technology \(IT\) operations.
 
-Application development includes writing code, testing the code, building fixes, integrating the fixes, building the application, and deploying the application. 
+Application development includes writing code, testing the code, building fixes, integrating the fixes, building the application, and deploying the application.
 
-IT operations include managing the environment on which the applications run, providing compute power to the applications, and making the software secure, scale, and run more efficiently. 
+IT operations include managing the environment on which the applications run, providing compute power to the applications, and making the software secure, scale, and run more efficiently.
 
-Because development and operations were traditionally separate groups, “living” in their own isolated worlds several issues arise. 
+Because development and operations were traditionally separate groups, “living” in their own isolated worlds several issues arise.
 
-DevOps blurs the lines between the development tasks and operational tasks by integrating processes and tools. 
+DevOps blurs the lines between the development tasks and operational tasks by integrating processes and tools.
 
-DevOps provides real value to the business. For example, it enables continuous delivery, so when new application features are complete, they can be automatically rolled into production. In turn, this action reduces time-to-market, provides competitive advantages, and reduces cost. 
+DevOps provides real value to the business. For example, it enables continuous delivery, so when new application features are complete, they can be automatically rolled into production. In turn, this action reduces time-to-market, provides competitive advantages, and reduces cost.
 
-DevOps automates the deployment of fixes after they are tested and approved. 
+DevOps automates the deployment of fixes after they are tested and approved.
 
-DevOps enables developers to customize and change applications quickly, improving customer satisfaction. DevOps enables a more stable environment and better application quality. The combination of a shared code base, continuous integration, test-driven techniques, and automated deployments expose problems in application code, infrastructure, or configuration earlier in software development. 
+DevOps enables developers to customize and change applications quickly, improving customer satisfaction. DevOps enables a more stable environment and better application quality. The combination of a shared code base, continuous integration, test-driven techniques, and automated deployments expose problems in application code, infrastructure, or configuration earlier in software development.
 
 In this exercise, you explore DevOps services in IBM Cloud. The IBM Cloud catalog provides multiple tools for DevOps, but this exercise is focused on IBM Cloud Continuous Delivery. Continuous Delivery enables you to build, test, and deliver applications by using DevOps practices and industry-leading tools.
 
@@ -35,11 +35,11 @@ After completing this exercise, you should be able to perform the following task
 
 ## Introduction
 
-IBM Cloud provides an online space to implement your DevOps model. The IBM Cloud Continuous Delivery service provides a set of online development tools. When you enable Continuous Delivery Toolchain for your application, you can choose to have a source code repository that is hosted by IBM and built on GitLab Community Edition. 
+IBM Cloud provides an online space to implement your DevOps model. The IBM Cloud Continuous Delivery service provides a set of online development tools. When you enable Continuous Delivery Toolchain for your application, you can choose to have a source code repository that is hosted by IBM and built on GitLab Community Edition.
 
-In the delivery pipeline, you can commit and restore files in your project. 
+In the delivery pipeline, you can commit and restore files in your project.
 
-The IBM Cloud Continuous Delivery service also provides a rich IDE for developing, testing, and deploying IBM SDK for Node.js applications by using a web browser. The web IDE is called Eclipse Orion. It provides you with syntax highlighting and API reference features that you expect in a desktop application. 
+The IBM Cloud Continuous Delivery service also provides a rich IDE for developing, testing, and deploying IBM SDK for Node.js applications by using a web browser. The web IDE is called Eclipse Orion. It provides you with syntax highlighting and API reference features that you expect in a desktop application.
 
 In this exercise, you work with the IBM Cloud Continuous Delivery services to explore, develop, build, and deploy IBM Cloud applications.
 
@@ -71,9 +71,12 @@ If you encounter issues when you follow this exercise, check the Troubleshooting
 
 In this part, you re-create the sample Node.js starter application that you deleted at the end of Exercise 1. Complete the following tasks:
 
-* [ ] Open the IBM Cloud console in your web browser: [https://cloud.ibm.com](https://cloud.ibm.com
+* [ ] Open the IBM Cloud console in your web browser: \[[https://cloud.ibm.com\]\(https://cloud.ibm.com](https://cloud.ibm.com]%28https://cloud.ibm.com)
+
   %20
-  )
+
+  \)
+
 * [ ] Log in to your IBM Cloud account. Enter your IBM ID and password, as shown in the following figure.
 
 ![](../.gitbook/assets/image001.png)
@@ -148,7 +151,7 @@ To enable continuous delivery for your application, perform the following tasks:
 ![](../.gitbook/assets/image011%20%281%29.png)
 
 {% hint style="info" %}
-🗝 **API keys**: An API key is a unique code that is passed in to an API to identify the calling application or user. API keys are used to track and control how the API is being used, for example to prevent malicious use or abuse of the API. The API key often acts as both a unique identifier and a secret token for authentication, and generally has a set of access that is specific to the identity associated with it. 
+🗝 **API keys**: An API key is a unique code that is passed in to an API to identify the calling application or user. API keys are used to track and control how the API is being used, for example to prevent malicious use or abuse of the API. The API key often acts as both a unique identifier and a secret token for authentication, and generally has a set of access that is specific to the identity associated with it.
 
 In this case, you create a new API key for the logged-in user. This allows the Delivery Pipeline to authenticate with this user's credentials to IBM Cloud so that it can deploy the application. If you have an existing IBM Cloud API key, you can enter it in the IBM Cloud API Key field.
 {% endhint %}
@@ -185,7 +188,7 @@ In this case, you create a new API key for the logged-in user. This allows the D
 
 ### Part 4. Reviewing your application in Eclipse Orion web IDE
 
-In this part, you review your application project in Eclipse Orion Web IDE, which is a browser-based development environment. You invite other users to your project so the team can collaborate in code development and deployment. 
+In this part, you review your application project in Eclipse Orion Web IDE, which is a browser-based development environment. You invite other users to your project so the team can collaborate in code development and deployment.
 
 Complete the following tasks:
 
@@ -209,7 +212,7 @@ The Node.js application \(`vy301-xxx-nodesample`\) section includes the `app.js`
 The `README.md` file provides a quick summary of the repository that manages your application artifacts and source code. It is a best practice to provide an up-to-date description of your project in this document, especially for projects that are publicly shared for all users.
 
 {% hint style="info" %}
-✍ Information: The README.md file is written with the Markdown syntax, which is a lightweight markup language for annotating plain text documents to be displayed as Hypertext Markup Language \(HTML\) documents. For more information about Markdown, see: [http://daringfireball.net/projects/markdown/](http://daringfireball.net/projects/markdown/) 
+✍ Information: The README.md file is written with the Markdown syntax, which is a lightweight markup language for annotating plain text documents to be displayed as Hypertext Markup Language \(HTML\) documents. For more information about Markdown, see: [http://daringfireball.net/projects/markdown/](http://daringfireball.net/projects/markdown/)
 
 For more information about guidelines for building a good readme file, see: [https://github.com/IBM-Cloud/repo-guidelines/blob/master/README.md\#readmemd-structure](https://github.com/IBM-Cloud/repo-guidelines/blob/master/README.md#readmemd-structure)
 {% endhint %}
@@ -255,7 +258,7 @@ In this part, edit your application code with Eclipse Orion web IDE by completin
 ![](../.gitbook/assets/image028.png)
 
 * [ ] Expand Cloud Foundry Apps and click your application \(**vy301-xxx-nodesample**\).
-* [ ]  Scroll down and click View toolchain, as shown in the following figure.
+* [ ] Scroll down and click View toolchain, as shown in the following figure.
 
 ![](../.gitbook/assets/image029.png)
 
@@ -267,7 +270,7 @@ In this part, edit your application code with Eclipse Orion web IDE by completin
 The following options are available:
 
 * The **Edit** option \(first icon\) provides a graphical editor to manage and update project files.
-*  The **Git** option allows you to select and check in files from the project into the Git repository. 
+* The **Git** option allows you to select and check in files from the project into the Git repository. 
 * The **Settings** option allows you to view and modify the settings to customize the Web IDE. You can choose the color schemes, technical tools, and settings that meet your development needs.
 * [ ] Click **app.js** from the project directory and examine the contents of the app.js source code in the editor, as shown in the following figure.
 
@@ -313,13 +316,13 @@ Complete the following tasks:
 
 ![](../.gitbook/assets/image037.jpg)
 
-* [ ]  Click **Commit** to save the files into the Git repository
+* [ ] Click **Commit** to save the files into the Git repository
 
 {% hint style="info" %}
 ✍ Information: If you are prompted to provide the author and committer names as mandatory fields, enter your name and email.
 {% endhint %}
 
-* [ ]  Examine the Working Directory Changes view.  Confirm that there are no more updated files to commit from the Working Directory Changes section and that the change set is in the Outgoing section, as shown in the following figure.
+* [ ] Examine the Working Directory Changes view.  Confirm that there are no more updated files to commit from the Working Directory Changes section and that the change set is in the Outgoing section, as shown in the following figure.
 
 ![](../.gitbook/assets/image038.jpg)
 
@@ -329,7 +332,7 @@ Complete the following tasks:
 
 ![](../.gitbook/assets/image039.jpg)
 
-* [ ]  Push your changes from the local branch to the remote Git branch by clicking the **Push** drop-down menu and selecting Push All in the Outgoing pane, as shown in the following figure.
+* [ ] Push your changes from the local branch to the remote Git branch by clicking the **Push** drop-down menu and selecting Push All in the Outgoing pane, as shown in the following figure.
 
 ![](../.gitbook/assets/image040.jpg)
 
@@ -337,17 +340,17 @@ You can see that the Outgoing pane is clear because all commits were pushed to t
 
 ![](../.gitbook/assets/image041%20%281%29.png)
 
-* [ ]  Examine the Git repository commits log. Click the back-arrow \(**Back to Toolchains**\) icon in the upper left of the Eclipse Orion Web IDE page, as shown in following figure
+* [ ] Examine the Git repository commits log. Click the back-arrow \(**Back to Toolchains**\) icon in the upper left of the Eclipse Orion Web IDE page, as shown in following figure
 
 ![](../.gitbook/assets/image041.png)
 
-* [ ]  Click **Git** from the Continuous Delivery Toolchain dashboard.
+* [ ] Click **Git** from the Continuous Delivery Toolchain dashboard.
 * [ ] Click **Repository** from the left navigation bar. 
 * [ ] Click **Commits**, as shown in the following figure. Examine the Git COMMITS for vy301-xxx-nodesample.
 
 ![](../.gitbook/assets/image042.png)
 
-* [ ]  Click **Git** from the Continuous Delivery Toolchain dashboard.
+* [ ] Click **Git** from the Continuous Delivery Toolchain dashboard.
 * [ ] Click **Repository** from the left navigation bar.
 * [ ] Click **Commits**, as shown in the following figure. Examine the Git COMMITS for `vy301-xxx-nodesample.`
 
@@ -366,7 +369,7 @@ There are two ways to deploy an application to your IBM Cloud account:
 ✍ If more than one developer is working on a project, consider checking in your changes and pushing the most recent revision from the Git repository.
 {% endhint %}
 
-* [ ]  Validate that the app is deployed automatically when changes are pushed to Git by using Delivery Pipeline.  Click the **Navigation Menu** icon  ![](../.gitbook/assets/image027%20%281%29.png) in the upper left and select Resource List, as shown in the following figure.
+* [ ] Validate that the app is deployed automatically when changes are pushed to Git by using Delivery Pipeline.  Click the **Navigation Menu** icon  ![](../.gitbook/assets/image027%20%281%29.png) in the upper left and select Resource List, as shown in the following figure.
 
 ![](../.gitbook/assets/image028%20%281%29.png)
 
@@ -380,7 +383,7 @@ There are two ways to deploy an application to your IBM Cloud account:
 
 ![](../.gitbook/assets/image045.jpg)
 
-* [ ]  **E**xamine the updated code. In Deploy Stage, click **View console** to view the application overview, as shown in the following figure.
+* [ ] **E**xamine the updated code. In Deploy Stage, click **View console** to view the application overview, as shown in the following figure.
 
 ![](../.gitbook/assets/image046.png)
 
@@ -388,7 +391,7 @@ There are two ways to deploy an application to your IBM Cloud account:
 ✍ By default, a Git push on the master Git branch triggers the application to be built and deployed automatically. Pushing the changes to any other branch does not trigger a deployment unless this branch is merged with the master branch. If required, you can modify the Delivery Pipeline to automatically trigger a build if a change is pushed to a branch other than the master branch.
 {% endhint %}
 
-* [ ]  In the Application Overview section, click **Visit App URL**, as shown in the following figure.
+* [ ] In the Application Overview section, click **Visit App URL**, as shown in the following figure.
 
 ![](../.gitbook/assets/image047.jpg)
 
@@ -400,8 +403,10 @@ There are two ways to deploy an application to your IBM Cloud account:
 
 You can publish changes to your application directly from the Eclipse Orion Web IDE to IBM Cloud. With this technique, you can quickly test changes to your code on an actual IBM Cloud account by completing the following tasks:
 
-* [ ]  In the Eclipse Orion Web IDE, edit the message in the sample application web page.
-On the Toolchains page, click **Eclipse Orion Web IDE** and switch to Edit mode from the left navigation bar.
+* [ ] In the Eclipse Orion Web IDE, edit the message in the sample application web page.
+
+  On the Toolchains page, click **Eclipse Orion Web IDE** and switch to Edit mode from the left navigation bar.
+
 * [ ] Open index.html in the public folder, as shown in the following figure.
 
 ![](../.gitbook/assets/image049.jpg)
@@ -415,7 +420,7 @@ On the Toolchains page, click **Eclipse Orion Web IDE** and switch to Edit mode 
 
 ![](../.gitbook/assets/image051.jpg)
 
-* [ ]  Wait until the deployment settings are loaded in the page. You see the Edit Launch Configuration window with all the fields populated. Click **Save**, as shown in the following figure.
+* [ ] Wait until the deployment settings are loaded in the page. You see the Edit Launch Configuration window with all the fields populated. Click **Save**, as shown in the following figure.
 
 ![](../.gitbook/assets/image052.png)
 
@@ -431,7 +436,7 @@ On the Toolchains page, click **Eclipse Orion Web IDE** and switch to Edit mode 
 
 ![](../.gitbook/assets/image055.jpg)
 
-* [ ]  ****Confirm that the changes appear in the application. In the server toolbar, click **Open the Deployed App** to view the changes to your application, as shown in the following figure.
+* [ ] **\*\*Confirm that the changes appear in the application. In the server toolbar, click** Open the Deployed App\*\* to view the changes to your application, as shown in the following figure.
 
 ![](../.gitbook/assets/image056.jpg)
 
@@ -445,13 +450,13 @@ On the Toolchains page, click **Eclipse Orion Web IDE** and switch to Edit mode 
 ✍ This part cannot be performed with an IBM Cloud Lite account. You need a Pay-As-You-Go account or a Subscription account. If you are a university student, you can apply for a no-charge feature code. Check with your instructor.
 {% endhint %}
 
-With the stop and redeploy option, you must first manually deploy the changes and trigger an application restart through the server toolbar. Although this option is more convenient than having to commit your changes to the Git repository, it can be disruptive to your software development workflow for minor changes. 
+With the stop and redeploy option, you must first manually deploy the changes and trigger an application restart through the server toolbar. Although this option is more convenient than having to commit your changes to the Git repository, it can be disruptive to your software development workflow for minor changes.
 
 The _IBM Cloud Live Sync_ feature automatically pushes any saved changes in the project workspace to a linked IBM Cloud application. For IBM SDK for Node.js applications, you can update static files and view the updates on IBM Cloud without restarting your application. Alternatively, for the non-static Node.js code, such as JavaScript files, you need to restart only your application without having to deploy the changes.
 
 To automatically push changes to IBM Cloud, complete the following tasks:
 
-* [ ]  Return to the Eclipse Orion Web IDE web page and enable the Live Edit feature.  Near the server’s toolbar, click the switch icon next to **Live Edit,** as shown in the following figure.
+* [ ] Return to the Eclipse Orion Web IDE web page and enable the Live Edit feature.  Near the server’s toolbar, click the switch icon next to **Live Edit,** as shown in the following figure.
 
 ![](../.gitbook/assets/image058.jpg)
 
@@ -462,7 +467,7 @@ To automatically push changes to IBM Cloud, complete the following tasks:
 {% hint style="info" %}
 ✍ The quota for the IBM Cloud Lite account is 256 MB, and applications that have Live Edit enabled require 800+ MB on average; this is the reason why this part of the exercise cannot be performed with an IBM Cloud Lite account. Here is the error message that you receive if you are using an IBM Cloud Lite account.
 
-![](../.gitbook/assets/image060.png) 
+![](../.gitbook/assets/image060.png)
 {% endhint %}
 
 * [ ] Confirm that Live Edit mode is enabled, as shown here  ![](../.gitbook/assets/image061.png) .
@@ -475,7 +480,7 @@ To automatically push changes to IBM Cloud, complete the following tasks:
 
 ![](../.gitbook/assets/image062.jpg)
 
-* [ ]  ****Change the sample application web page heading. On the i`ndex.html` web page, edit the heading to read `Welcome to the live edit sample application!,` as shown in the following figure.
+* [ ] _\*\*_Change the sample application web page heading. On the i`ndex.html` web page, edit the heading to read `Welcome to the live edit sample application!,` as shown in the following figure.
 
 ![](../.gitbook/assets/image063.jpg)
 
@@ -483,7 +488,7 @@ To automatically push changes to IBM Cloud, complete the following tasks:
 ✍ With the Live Edit feature, you do not need to save or deploy your static files. Changes are saved and deployed to your IBM Cloud account automatically. Examples of static files include HTML web pages and Cascading Style Sheets \(CSS\). However, you might still need to commit your files in Git if you want other people to see them.
 {% endhint %}
 
-* [ ]  Confirm that the changes appear in your IBM Cloud application. In the server toolbar, click the **Open the Deployed App** icon to view the changes to your application, as shown in the following figure.
+* [ ] Confirm that the changes appear in your IBM Cloud application. In the server toolbar, click the **Open the Deployed App** icon to view the changes to your application, as shown in the following figure.
 
 ![](../.gitbook/assets/image064.jpg)
 
@@ -507,12 +512,12 @@ In this part, you clean up the application and the Continuous Delivery Toolchain
 
 ![](../.gitbook/assets/image068.jpg)
 
-* [ ]  Select **Remove project**. 
+* [ ] Select **Remove project**. 
 * [ ] Click **Remove project** as shown in the following figure.
 
 ![](../.gitbook/assets/image069.jpg)
 
-* [ ]  In the confirmation window, enter your application name and click **Confirm** as shown in the following figure.
+* [ ] In the confirmation window, enter your application name and click **Confirm** as shown in the following figure.
 
 ![](../.gitbook/assets/image070.jpg)
 
@@ -546,18 +551,18 @@ In this part, you clean up the application and the Continuous Delivery Toolchain
 
 ![](../.gitbook/assets/image077%20%281%29.png)
 
-* [ ]  Log out of IBM Cloud.
+* [ ] Log out of IBM Cloud.
 * [ ] Close your web browser.
 
-## Exercise review and wrap-up
+## 🎓Exercise review and wrap-up
 
-In this exercise, you used IBM Cloud Continuous Delivery to manage your IBM Cloud application that is written for the IBM SDK for Node.js server runtime. 
+In this exercise, you used IBM Cloud Continuous Delivery to manage your IBM Cloud application that is written for the IBM SDK for Node.js server runtime.
 
-Then, you saved your changes in the Git repository. Through the Delivery Pipeline, you automatically deployed the committed source code changes to your IBM Cloud application. 
+Then, you saved your changes in the Git repository. Through the Delivery Pipeline, you automatically deployed the committed source code changes to your IBM Cloud application.
 
 In the last part of the exercise, you deployed your changes directly from the project workspace. Optionally, you also used the IBM Cloud Live Sync feature to push changes to static files without redeploying the application and without having to restart it.
 
-## Troubleshooting
+## 🤓 Troubleshooting
 
 This section lists common problems that students might encounter while you perform this exercise. If your app status is “unknown” or your app status is “not running”, click the Overview link in the upper left of the window, as shown in the following figure.
 

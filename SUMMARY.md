@@ -18,6 +18,7 @@
 
 * [Exercise 1. Getting started with Cloud Foundry apps on IBM Cloud](workshop/exercise-1.-getting-started-with-cloud-foundry-apps-on-ibm-cloud.md)
 * [Exercise 2. Developing IBM Cloud applications with IBM Cloud Continuous Delivery](workshop/exercise-2.-developing-ibm-cloud-applications-with-ibm-cloud-continuous-delivery.md)
+* [Exercise 3. IBM Cloud with IBM Cloudant](workshop/exercise-3.-ibm-cloud-with-ibm-cloudant.md)
 
 ## RESOURCES
 

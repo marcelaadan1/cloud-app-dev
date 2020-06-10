@@ -6,9 +6,9 @@
 
 ## Overview
 
-The focus of the application developers is on the business value of the application that they are creating. Developers should spend most of their time on the features, functions, and usability of their applications. 
+The focus of the application developers is on the business value of the application that they are creating. Developers should spend most of their time on the features, functions, and usability of their applications.
 
-However, to realize the usefulness of their applications, developers often must deal with server management and installing and configuring the run time and framework that their application requires to run. 
+However, to realize the usefulness of their applications, developers often must deal with server management and installing and configuring the run time and framework that their application requires to run.
 
 This exercise describes how you can deploy a web application \(app\) without downloading or configuring a runtime environment or framework or setting up a server. This exercise also covers how to test and run the app when it is deployed.
 
@@ -40,7 +40,7 @@ In this exercise, you complete the following tasks:
 
 1. Obtain your ran
 2. Log in to IBM Cloud**.**  
-3. Create an application.  ****
+3. Create an application.  _\*\*_
 4. Modify and redeploy your Cloud Foundry app**.**
 5. Check your organization limits.
 6. Delete the sample application
@@ -65,7 +65,7 @@ Log in to IBM Cloud by completing the following tasks:
 * [ ] Open the IBM Cloud console \([https://cloud.ibm.com](https://cloud.ibm.com)\) in a web browser.
 * [ ] In the “Log in to IBM Cloud” right pane, complete the following steps:
   * [ ] Leave the “IBMid” selected from the drop-down list.
-  * [ ]  Enter the email address that you used to register for IBM Cloud
+  * [ ] Enter the email address that you used to register for IBM Cloud
   * [ ] Click **Continue**. 
   * [ ] Enter your password and click **Log in**.
 
@@ -109,7 +109,7 @@ Complete the details for creating a Cloud Foundry Sample App:
 
 ![](../.gitbook/assets/image009%20%283%29.png)
 
-* [ ]  Select **SDK for Node.js** from the provided runtimes as shown in the following figure.
+* [ ] Select **SDK for Node.js** from the provided runtimes as shown in the following figure.
 
 ![](../.gitbook/assets/image010.png)
 
@@ -156,7 +156,7 @@ If you do not have a Lite account, the application status should be “Running�
 Now that you successfully deployed your application, you modify the code and push the changes out to Cloud Foundry with IBM Cloud CLI by completing the following tasks:
 
 * [ ] Download and extract the sample application:
-  * [ ]  ****Return to the **Application Details - IBM Cloud tab** on your browser**.**
+  * [ ] **\*\*Return to the** Application Details - IBM Cloud tab **on your browser**.\*\*
   * [ ] Make sure that **Getting started** is selected, as shown in the following figure. 
   * [ ] Click **download the sample code** under **Getting started with SDK for Node.js** as shown in the following figure.
 
@@ -176,14 +176,14 @@ Connect to IBM Cloud by using the IBM Cloud CLI:
 
 * [ ] In a Command Prompt window \(Microsoft Windows\) or terminal \(Mac OS or Linux\), change to the directory with the sample code. On almost any operating system, you can do this with the `cd` command.
 
-  For example, if you extracted the contents of the application to `\IBM-Cloud\get-started-node-master\get-started-node-master`, running `cd C:\IBM-Cloud\get-started-node-master\get-started-node-master`takes you to the correct location, as shown in the following figure.   
-  If you run `dir` \(Windows\) or ls ``\(MAC OS and Linux\) and see the `manifest.yml` or `package.json`files, you are in the correct location, as shown in the following figure.
+  For example, if you extracted the contents of the application to `\IBM-Cloud\get-started-node-master\get-started-node-master`, running `cd C:\IBM-Cloud\get-started-node-master\get-started-node-master`takes you to the correct location, as shown in the following figure.  
+  If you run `dir` \(Windows\) or ls ```\(MAC OS and Linux\) and see the``manifest.yml`or`package.json\`files, you are in the correct location, as shown in the following figure.
 
 ![](../.gitbook/assets/image018.png)
 
-* [ ]  ****Use your favorite text editor to open the `manifest.yml`. For example, if you extracted the application source code to `C:\IBM-Cloud,`then this file is in `C:\IBM-Cloud\get-started-node-master\get-started-node-master\manifest.yml.`
-* [ ]  Change the name from `GetStartedNode` to your app name, `vy301-xxx-nodesample`, where `xxx` is the randomly generated key that you use in this exercise. 
-* [ ]  `random-route: true` generates a random route to the application. To use the same application name as the route of the application, remove `random-route: true`, as shown in the following figure.
+* [ ] _\*\*_Use your favorite text editor to open the `manifest.yml`. For example, if you extracted the application source code to `C:\IBM-Cloud,`then this file is in `C:\IBM-Cloud\get-started-node-master\get-started-node-master\manifest.yml.`
+* [ ] Change the name from `GetStartedNode` to your app name, `vy301-xxx-nodesample`, where `xxx` is the randomly generated key that you use in this exercise. 
+* [ ] `random-route: true` generates a random route to the application. To use the same application name as the route of the application, remove `random-route: true`, as shown in the following figure.
 
 ![](../.gitbook/assets/image019.png)
 
@@ -209,20 +209,21 @@ Target the region that corresponds to the location that was set by default when 
 
 The command response is as follows:
 
-> `c:\IBM-Cloud\get-started-node-master\get-started-node-master>ibmcloud login -u  -p  -r eu-gb API endpoint:` [`https://cloud.ibm.com`](https://cloud.ibm.com) `Authenticating... OK  
+> `c:\IBM-Cloud\get-started-node-master\get-started-node-master>ibmcloud login -u -p -r eu-gb API endpoint:` [`https://cloud.ibm.com`](https://cloud.ibm.com) `Authenticating... OK    
 > Targeted account Student20 Cloud20's Account (f6eeaf39ae6b477fbcead1993509e9c6)`
 >
 > `Targeted region eu-gb`
 >
-> `API endpoint:` [`https://cloud.ibm.com`](https://cloud.ibm.com)   
-> `Region: eu-gb   
-> User:  <The email that you used to register to IBM Cloud>  
-> Account:  <f6eeaf39ae6b477fbcead1>  
-> Resource group: No resource group targeted, use 'ibmcloud target -g RESOURCE_GROUP'   
+> `API endpoint:` [`https://cloud.ibm.com`](https://cloud.ibm.com)  
+> \`Region: eu-gb  
+> User:   
+> Account:   
+> Resource group: No resource group targeted, use 'ibmcloud target -g RESOURCE\_GROUP'  
 > CF API endpoint: Org: Space:  
-> Tip: If you are managing Cloud Foundry applications and services  
-> - Use 'ibmcloud target --cf' to target Cloud Foundry org/space interactively, or use 'ibmcloud target --cf-api ENDPOINT -o ORG -s SPACE' to target the org/space.   
-> - Use 'ibmcloud cf' if you want to run the Cloud Foundry CLI with current IBM Cloud CLI`
+> Tip: If you are managing Cloud Foundry applications and services
+>
+> * Use 'ibmcloud target --cf' to target Cloud Foundry org/space interactively, or use 'ibmcloud target --cf-api ENDPOINT -o ORG -s SPACE' to target the org/space.   
+> * Use 'ibmcloud cf' if you want to run the Cloud Foundry CLI with current IBM Cloud CLI\`
 
 * [ ] Now, you are logged in to IBM Cloud. To select the Cloud Foundry API endpoint, organization, and space to which you deploy your application, run the following command. Enter the same organization and space that were used when the application was created.
 
@@ -242,26 +243,25 @@ In this example, `https://api.eu-gb.cf.cloud.ibm.com` is used, which is the API 
 * Use `-o` to specify the organization, which is the email that you used to register to IBM Cloud.
 * Use `-s` to specify the space, which is `dev.`
 
-The following example shows the ibmcloud target command and options on Windows. 
+The following example shows the ibmcloud target command and options on Windows.
 
 ```text
 ibmcloud target --cf-api https://api.eu-gb.cf.cloud.ibm.com -o <your_email> -s dev
-
 ```
 
 You receive the following output \(API version might be different\):
 
 > Targeted Cloud Foundry`(https://api.eu-gb.cf.cloud.ibm.com)`
 >
-> `Targeted org <you_email>  
-> Targeted space dev  
-> API endpoint: https://cloud.ibm.com   
-> Region: eu-gb   
-> User:  \<your_email\>  
-> Account:  \<your_account_name\>(f6eeaf39ae6b477fbcead1993509e9c6)   
-> Resource group: Default   
-> CF API endpoint: https://api.eu-gb.cf.cloud.ibm.com (API version: 2.106.0)   
-> Org:  \<your_email\>  
+> `Targeted org <you_email>    
+> Targeted space dev    
+> API endpoint: https://cloud.ibm.com    
+> Region: eu-gb    
+> User: \<your_email\>    
+> Account: \<your_account_name\>(f6eeaf39ae6b477fbcead1993509e9c6)    
+> Resource group: Default    
+> CF API endpoint: https://api.eu-gb.cf.cloud.ibm.com (API version: 2.106.0)    
+> Org: \<your_email\>    
 > Space: dev`
 
 * [ ] Upload and deploy the sample application to push the contents of the current directory as a Cloud Foundry application on IBM Cloud by running the following command:
@@ -272,45 +272,45 @@ ibmcloud cf push vy301-xxx-nodesample
 
 The following example shows a sample results for the `ibmcloud cf push` command on W`indows:`
 
-> `Pushing from manifest to org  / space dev as ... Using manifest file C:\IBM-Cloud\vy301-206-nodesample\manifest.yml Getting app info...   
-> Updating app with these attributes...   
-> name: vy301-206-nodesample   
-> path: C:\IBM-Cloud\get-started-node-master\get-started-node-master   
-> command: npm start   
-> disk quota: 1G   
-> health check type: port   
-> instances: 1   
-> memory: 256M   
-> stack: cflinuxfs3   
-> routes: vy301-206-nodesample.eu-gb.cf.appdomain.cloud  
-> Updating app vy301-206-nodesample... Mapping routes...  
+> `Pushing from manifest to org / space dev as ... Using manifest file C:\IBM-Cloud\vy301-206-nodesample\manifest.yml Getting app info...    
+> Updating app with these attributes...    
+> name: vy301-206-nodesample    
+> path: C:\IBM-Cloud\get-started-node-master\get-started-node-master    
+> command: npm start    
+> disk quota: 1G    
+> health check type: port    
+> instances: 1    
+> memory: 256M    
+> stack: cflinuxfs3    
+> routes: vy301-206-nodesample.eu-gb.cf.appdomain.cloud    
+> Updating app vy301-206-nodesample... Mapping routes...    
 > .........................................................................................`
 >
 > `Waiting for app to start... Cell 476dc2a8-fa9b-4a7f-8572-cf9138ff6cfe successfully destroyed container for instance 9b232c41-3960-430b-999e-f46d67fb1aae`
 >
 > `name: vy301-206-nodesample requested state: started routes: vy301-206-nodesample.eu-gb.cf.appdomain.cloud last uploaded: Sun 24 Nov 16:07:50 CST 2019 stack: cflinuxfs3 buildpacks: sdk-for-nodejs`
 >
-> `type: web   
-> instances: 1/1   
-> memory usage: 256M   
-> start command: npm start   
+> `type: web    
+> instances: 1/1    
+> memory usage: 256M    
+> start command: npm start    
 > state since cpu memory disk details`
 >
 > `Waiting for app to start... Cell 476dc2a8-fa9b-4a7f-8572-cf9138ff6cfe successfully destroyed container for instance 9b232c41-3960-430b-999e-f46d67fb1aae`
 >
-> `name: vy301-206-nodesample   
-> requested state: started  
-> routes:` **`vy301-206-nodesample.eu-gb.cf.appdomain.cloud`** `last uploaded: Sun 24 Nov 16:07:50 CST 2019   
-> stack: cflinuxfs3   
+> `name: vy301-206-nodesample    
+> requested state: started    
+> routes:` **`vy301-206-nodesample.eu-gb.cf.appdomain.cloud`** `last uploaded: Sun 24 Nov 16:07:50 CST 2019    
+> stack: cflinuxfs3    
 > buildpacks: sdk-for-nodejs`
 >
-> `type: web   
-> instances: 1/1   
-> memory usage: 256M   
-> start command: npm start   
+> `type: web    
+> instances: 1/1    
+> memory usage: 256M    
+> start command: npm start    
 > state since cpu memory disk details`
 >
-> `0   running   2019-11-24T22:08:04Z   0.1%   41.8M of 256M   80.6M of 1G`
+> `0 running 2019-11-24T22:08:04Z 0.1% 41.8M of 256M 80.6M of 1G`
 
 Wait until the CLI exits and you return to the command prompt. This is how you know that your files finished uploading.
 
@@ -330,7 +330,7 @@ Confirm that your sample application is running by completing the following task
 
 ![](../.gitbook/assets/image022%20%281%29.png)
 
-* [ ]  Save the file and exit your text editor.
+* [ ] Save the file and exit your text editor.
 * [ ] Return to the Command Prompt and run the push command to upload and deploy the application again with the new changes:
 
 ```text
@@ -381,7 +381,7 @@ View the amount of consumed resources in your dashboard:
 
 In this part, you delete your app so that your IBM Cloud organization is clean and ready for the next exercise. To delete the sample application complete the following tasks:
 
-* [ ]  Find and click the gear menu icon to the right of your app name. You are presented with a list of options, as shown in the following figure.
+* [ ] Find and click the gear menu icon to the right of your app name. You are presented with a list of options, as shown in the following figure.
 
 ![](../.gitbook/assets/image029.jpg)
 
@@ -394,7 +394,7 @@ In this part, you delete your app so that your IBM Cloud organization is clean a
 ‼ An IBM Cloud Lite account provides up to 256 MB of application memory for Cloud Foundry Apps and 100 Cloud Foundry services. To free the resources that are assigned to your application, either stop your application or delete it. If you used up your quota for services, you must delete the existing services to make room for new ones.
 {% endhint %}
 
-## 👩🎓 Exercise review and wrap-up
+## 🎓 Exercise review and wrap-up
 
 In this exercise, you registered for an IBM Cloud account and explored the IBM Cloud dashboard and catalog by signing in with your IBMid. Then, you created an IBM Cloud application with the IBM SDK for Node.js runtime environment. You used the IBM Cloud CLI to modify the source code of the sample application on your local workstation and redeployed the updated application from your local workstation to your IBM Cloud account by using the IBM Cloud CLI.
 
