@@ -57,9 +57,12 @@ Cloudant is a document-oriented DBaaS. Cloudant is available as a service with d
 Complete the following tasks:
 
 * [ ] On the IBM Cloud dashboard, click **Create resource** at the upper right, as shown in the following figure.
+
 ![](../.gitbook/assets/ex3/image003.png)
+
 * [ ] You can now see the entire catalog. In the search field, type **Cloudant**.
 * [ ] Select the **Cloudant** service as shown in the following figure.
+
 ![](../.gitbook/assets/ex3/image004.png)
 
 ### Part 3. Exploring the Cloudant service on IBM Cloud
