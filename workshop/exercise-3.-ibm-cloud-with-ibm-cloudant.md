@@ -1,6 +1,6 @@
 # Exercise 3. IBM Cloud with IBM Cloudant
 
-\#\#\#\# Estimated time
+#### Estimated time
 
 00:45
 
@@ -40,7 +40,7 @@ In this section, you log in to your IBM Cloud account by providing your own cred
 * [ ] Enter your IBMid, which is the email that you used to register to IBM Cloud, and click **Continue**. 
 * [ ] Enter your password and then click **Log in**, as shown in the following figure.
 
-![](../.gitbook/assets/image001.jpg)
+![](../.gitbook/assets/ex3/image001.jpg)
 
 {% hint style="info" %}
 ✍ If your company uses the single sign-on service, you provide only your IBMid, and then you are redirected to the single sign-on page to log in by using your company credentials.
@@ -48,7 +48,7 @@ In this section, you log in to your IBM Cloud account by providing your own cred
 
 * [ ] You are redirected to the IBM Cloud dashboard page, as shown in the following figure.
 
-![](../.gitbook/assets/image002%20%282%29.png)
+![](../.gitbook/assets/ex3/image002.png)
 
 ### Part 2. Creating an instance of the Cloudant service
 
@@ -57,6 +57,10 @@ Cloudant is a document-oriented DBaaS. Cloudant is available as a service with d
 Complete the following tasks:
 
 * [ ] On the IBM Cloud dashboard, click **Create resource** at the upper right, as shown in the following figure.
+![](../.gitbook/assets/ex3/image003.png)
+* [ ] You can now see the entire catalog. In the search field, type **Cloudant**.
+* [ ] Select the **Cloudant** service as shown in the following figure.
+![](../.gitbook/assets/ex3/image004.png)
 
 ### Part 3. Exploring the Cloudant service on IBM Cloud
 
