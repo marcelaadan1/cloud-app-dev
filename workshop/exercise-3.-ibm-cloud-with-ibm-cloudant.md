@@ -73,19 +73,21 @@ Complete the following tasks:
 * [ ] In **Available authentication methods**, select **Use only IAM**, as shown in the following figure. 
 
 ![](../.gitbook/assets/ex3/image006.jpg)
+Update to Marcela's comment on line 76
 
 {% hint style="info" %}
 :memo: The Cloudant service has two authentication methods that are available: **Use both legacy credentials and IAM**, which means that both IAM and Legacy credentials can be used to access the account, and Use only IAM, which means that only IAM credentials are provided through service binding and credential generation. 
 * Legacy credentials enable login to Cloudant by using HTTP Basic authentication by providing a user name and password that is used for authentication. 
 * Identity and Access Management (IAM) provides a unified approach to managing user identities, services, and access control. IAM authentication requires that an IAM API key is exchanged for a time-limited access token before you can make a request to Cloudant. When the access token expires, the client must obtain a new one from the IAM token service.
 In this exercise, you use the IAM method as the authentication method for the Cloudant service.
+Update to Don's comment
 {% endhint %}
 
 * [ ] Click **Create**, as shown in the following figure.
 
 ![](../.gitbook/assets/ex3/image007.jpg)
 
-* [ ] After the service is created, you are redirected to the Resource list window, as shown in the following figure. Open the Cloudant service instance overview by clicking the newly created service in the Resource list window. 
+* [ ] After the service is created, you are redirected to the Resource list window, as shown in the following figure. Open the Cloudant service instance overview by clicking the newly created service in the Resource list window. Update to Don's comment line 88
 
 ![](../.gitbook/assets/ex3/image008.jpg)
 
@@ -176,7 +178,7 @@ To connect your Cloudant service with external consumers such as external applic
 
 Complete the following tasks:
 
-* [ ] From the Cloudant service Overview page, select **Service credentials** from the left pane, as shown in the following figure.
+* [ ] From the Cloudant service Overview page, select **Service credentials** from the left pane, as shown in the following figure. Update for Don's comment line 88.
 
 ![](../.gitbook/assets/ex3/image022.jpg)
 
@@ -763,7 +765,7 @@ In this part, you delete your Cloudant service instance from your IBM Cloud acco
 In this exercise, you created an instance of Cloudant on IBM Cloud. You created credentials for the service to make requests from an HTTP API client by using these credentials. 
 
 You explored the Cloudant dashboard and the features that are available in the Cloudant dashboard. You also created, read, updated, deleted, and queried Cloudant documents by using an HTTP API client.
-
+Update for MArcela's comment line 761.
 ## Testing additional formats with _VS code_
 
 ### Test code copy/paste
