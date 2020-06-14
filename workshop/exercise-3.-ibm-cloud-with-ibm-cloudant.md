@@ -766,6 +766,7 @@ In this exercise, you created an instance of Cloudant on IBM Cloud. You created 
 
 You explored the Cloudant dashboard and the features that are available in the Cloudant dashboard. You also created, read, updated, deleted, and queried Cloudant documents by using an HTTP API client.
 Update for MArcela's comment line 761.
+Final update.
 ## Testing additional formats with _VS code_
 
 ### Test code copy/paste
