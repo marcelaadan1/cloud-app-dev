@@ -13,19 +13,19 @@ Complete these tasks to apply a feature code to you IBM Cloud account:
 * [ ] Log in to I[BM Cloud](https://cloud.ibm.com/login).
 * [ ] In the top navigation click **Manage** &gt; **Account**.
 
-![](../.gitbook/assets/image010.jpg)
+![](../.gitbook/assets/image010%20%281%29.jpg)
 
 * [ ] Click **Account settings**.
 
-![](../.gitbook/assets/image011.png)
+![](../.gitbook/assets/image011%20%282%29.png)
 
 * [ ] Under Subscription and Feature Codes, click **Apply Code**.
 
-![](../.gitbook/assets/image012.jpg)
+![](../.gitbook/assets/image012%20%282%29.jpg)
 
 * [ ] Enter the feature code \(also known as promo code\) that was provided to you for this course and click **Apply**.
 
-![](../.gitbook/assets/image013.jpg)
+![](../.gitbook/assets/image013%20%282%29.jpg)
 
 {% hint style="info" %}
  📝 This feature code will add extra capabilities to your IBM Cloud Lite account. You can apply a feature code to only one IBM Cloud account, and the code cannot be removed after it is applied.

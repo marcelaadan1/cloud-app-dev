@@ -97,7 +97,7 @@ Complete the details for creating a Cloud Foundry Sample App:
 
 * [ ] Region is selected by default based on your location. In this example, the region is London.
 
-![](../.gitbook/assets/image007.jpg)
+![](../.gitbook/assets/image007%20%282%29.jpg)
 
 {% hint style="danger" %}
 **TROUBLESHOOTING**: If you see the error “_Deployment in multiple regions is not available in Lite accounts, Upgrade your account to enable access to multiple regions_.”, as shown in the following figure, click the drop-down menu under **Select a region** and switch to the region to which you have access. Repeat the step to create your app.
@@ -160,7 +160,7 @@ Now that you successfully deployed your application, you modify the code and pus
   * [ ] Make sure that **Getting started** is selected, as shown in the following figure. 
   * [ ] Click **download the sample code** under **Getting started with SDK for Node.js** as shown in the following figure.
 
-![](../.gitbook/assets/image016.jpg)
+![](../.gitbook/assets/image016%20%282%29.jpg)
 
 {% hint style="info" %}
 ✍ If the hyperlink to download the sample code is not available, access the sample code directly from [https://github.com/IBM-Cloud/get-started-node](https://github.com/IBM-Cloud/get-started-node).
@@ -179,13 +179,13 @@ Connect to IBM Cloud by using the IBM Cloud CLI:
   For example, if you extracted the contents of the application to `\IBM-Cloud\get-started-node-master\get-started-node-master`, running `cd C:\IBM-Cloud\get-started-node-master\get-started-node-master`takes you to the correct location, as shown in the following figure.  
   If you run `dir` \(Windows\) or ls ```\(MAC OS and Linux\) and see the``manifest.yml`or`package.json\`files, you are in the correct location, as shown in the following figure.
 
-![](../.gitbook/assets/image018.png)
+![](../.gitbook/assets/image018%20%282%29.png)
 
 * [ ] _\*\*_Use your favorite text editor to open the `manifest.yml`. For example, if you extracted the application source code to `C:\IBM-Cloud,`then this file is in `C:\IBM-Cloud\get-started-node-master\get-started-node-master\manifest.yml.`
 * [ ] Change the name from `GetStartedNode` to your app name, `vy301-xxx-nodesample`, where `xxx` is the randomly generated key that you use in this exercise. 
 * [ ] `random-route: true` generates a random route to the application. To use the same application name as the route of the application, remove `random-route: true`, as shown in the following figure.
 
-![](../.gitbook/assets/image019.png)
+![](../.gitbook/assets/image019%20%281%29.png)
 
 * [ ] Make sure that you are in the directory that contains the Node.js app code that you downloaded previously. Log in to the IBM Cloud with the CLI:
 
@@ -367,7 +367,7 @@ View the amount of consumed resources in your dashboard:
 
 * [ ] Click your application name that is listed under Cloud Foundry Apps, as shown in the following figure.
 
-![](../.gitbook/assets/image027.jpg)
+![](../.gitbook/assets/image027%20%281%29.jpg)
 
 * [ ] Note the **Runtime** tile. The following figure shows that your application consumes 256 MB of the allotted memory in this IBM Cloud organization. In the next part, you delete the application to clean up your organization for the next exercise.
 

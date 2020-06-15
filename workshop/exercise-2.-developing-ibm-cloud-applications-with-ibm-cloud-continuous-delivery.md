@@ -90,7 +90,7 @@ In this part, you explore the application overview page in your IBM Cloud accoun
 
 * [ ] Open the application page for your sample application. Click the **Navigation Menu** icon at the upper left of the IBM Cloud window and click **Resource List**, as shown in the following figure.
 
-![](../.gitbook/assets/image002.png)
+![](../.gitbook/assets/image002%20%283%29.png)
 
 * [ ] Expand the **Cloud Foundry Apps** section and click the application that you created in [Part 1](https://app.gitbook.com/@marcela-adan1/s/essentials-of-cloud-application-development/~/drafts/-M8wandhLirZoWs-qfjD/exercise-2.-developing-ibm-cloud-applications-with-ibm-cloud-continuous-delivery#part-1-re-creating-your-application) of this exercise, as shown in the following figure.
 
@@ -131,7 +131,7 @@ To enable continuous delivery for your application, perform the following tasks:
 
 * [ ] Click **Tools** to expand the tools bar.
 
-![](../.gitbook/assets/image008.jpg)
+![](../.gitbook/assets/image008%20%282%29.jpg)
 
 * [ ] The bar expands and displays the tools that are created when you create the toolchain as shown in the following figure.
 
@@ -235,19 +235,19 @@ Invite project members to the toolchain that you created with the Delivery Pipel
 
 * [ ] Add access to the Toolchain instances. In the “Assign users additional access” section, select **IAM services**. Under “What type of access do you want to assign?” select **Toolchain** in **Account**, as shown in the following figure.
 
-![](../.gitbook/assets/image023.png)
+![](../.gitbook/assets/image023%20%282%29.png)
 
 * [ ] For **Service instance** select **All instances**. Then, select the level of access \(Administrator, Editor, Operator, or Viewer\) for the resource under “Platform access” and click **Add** as shown in the figure.
 
-![](../.gitbook/assets/image024.png)
+![](../.gitbook/assets/image024%20%281%29.png)
 
 * [ ] Add access to the Cloud Foundry application.  In the “Assign users additional access” pane, select **Cloud Foundry** to give access to the Cloud Foundry organization to which the resource belongs. Complete the Organization \(use your IBM ID\), Organization roles, Region, Space, and Space roles fields and then click **Add**, as shown in the following figure. In this example, you grant **Developer** access to the user.
 
-![](../.gitbook/assets/image025.png)
+![](../.gitbook/assets/image025%20%281%29.png)
 
 * [ ] Click **Invite**.
 
-![](../.gitbook/assets/image026.png)
+![](../.gitbook/assets/image026%20%281%29.png)
 
 ### Part 6. Editing the sample application
 
@@ -260,12 +260,12 @@ In this part, edit your application code with Eclipse Orion web IDE by completin
 * [ ] Expand Cloud Foundry Apps and click your application \(**vy301-xxx-nodesample**\).
 * [ ] Scroll down and click View toolchain, as shown in the following figure.
 
-![](../.gitbook/assets/image029.png)
+![](../.gitbook/assets/image029%20%281%29.png)
 
 * [ ] Click **Eclipse Orion Web IDE**.
 * [ ] Expand the project \(**vy301-xxx-nodesample**\) to confirm that a set of files and directories are in the project, as shown in the following figure.
 
-![](../.gitbook/assets/image030.jpg)
+![](../.gitbook/assets/image030%20%281%29.jpg)
 
 The following options are available:
 
@@ -308,7 +308,7 @@ Complete the following tasks:
 
 * [ ] Switch to Git in the left navigation bar. Click the **Git** icon in the left pane, as shown in the following figure.
 
-![](../.gitbook/assets/image036.png)
+![](../.gitbook/assets/image036%20%281%29.png)
 
 * [ ] Add and commit the changes in the project to the Git repository.  Examine the Working Directory Changes pane, as shown in the following figure. The Working Directory Changes window lists the files that you added to the workspace or modified. 
 * [ ] Enter “**Updated index page title**” into the comment window. 
@@ -324,13 +324,13 @@ Complete the following tasks:
 
 * [ ] Examine the Working Directory Changes view.  Confirm that there are no more updated files to commit from the Working Directory Changes section and that the change set is in the Outgoing section, as shown in the following figure.
 
-![](../.gitbook/assets/image038.jpg)
+![](../.gitbook/assets/image038%20%281%29.jpg)
 
 {% hint style="info" %}
 ✍ Do not perform this step; it is for your information only. You can revert to the last saved version of your source code in the Git repository. To do so, select the change set that you want to revert in the Outgoing section and hover your cursor over the eraser icon, as shown in the following figure. Do not click the eraser icon now
 {% endhint %}
 
-![](../.gitbook/assets/image039.jpg)
+![](../.gitbook/assets/image039%20%281%29.jpg)
 
 * [ ] Push your changes from the local branch to the remote Git branch by clicking the **Push** drop-down menu and selecting Push All in the Outgoing pane, as shown in the following figure.
 
@@ -348,13 +348,13 @@ You can see that the Outgoing pane is clear because all commits were pushed to t
 * [ ] Click **Repository** from the left navigation bar. 
 * [ ] Click **Commits**, as shown in the following figure. Examine the Git COMMITS for vy301-xxx-nodesample.
 
-![](../.gitbook/assets/image042.png)
+![](../.gitbook/assets/image042%20%282%29.png)
 
 * [ ] Click **Git** from the Continuous Delivery Toolchain dashboard.
 * [ ] Click **Repository** from the left navigation bar.
 * [ ] Click **Commits**, as shown in the following figure. Examine the Git COMMITS for `vy301-xxx-nodesample.`
 
-![](../.gitbook/assets/image043.jpg)
+![](../.gitbook/assets/image043%20%281%29.jpg)
 
 You can see the last commit and all commits from the beginning. Because you chose the default value \(**Clone**\) for the Repository type when you created the Continuous Delivery Toolchain, the figure shows the “Initial commit” action, which indicates that the Node.js sample code was cloned \(**Clone from zip**\). Each commit action has a unique identifier, user name, and date and time stamp.
 
@@ -381,11 +381,11 @@ There are two ways to deploy an application to your IBM Cloud account:
 
 * [ ] Examine the delivery pipeline. Wait until the build and deploy tasks complete successfully, as shown in the following figure.
 
-![](../.gitbook/assets/image045.jpg)
+![](../.gitbook/assets/image045%20%281%29.jpg)
 
 * [ ] **E**xamine the updated code. In Deploy Stage, click **View console** to view the application overview, as shown in the following figure.
 
-![](../.gitbook/assets/image046.png)
+![](../.gitbook/assets/image046%20%281%29.png)
 
 {% hint style="info" %}
 ✍ By default, a Git push on the master Git branch triggers the application to be built and deployed automatically. Pushing the changes to any other branch does not trigger a deployment unless this branch is merged with the master branch. If required, you can modify the Delivery Pipeline to automatically trigger a build if a change is pushed to a branch other than the master branch.
@@ -397,7 +397,7 @@ There are two ways to deploy an application to your IBM Cloud account:
 
 * [ ] Confirm that the application web page changed to “Hello node sample!” as shown in the following figure.
 
-![](../.gitbook/assets/image048.png)
+![](../.gitbook/assets/image048%20%281%29.png)
 
 ### Part 9. Deploying the application directly from your project workspace to IBM Cloud
 
@@ -422,7 +422,7 @@ You can publish changes to your application directly from the Eclipse Orion Web 
 
 * [ ] Wait until the deployment settings are loaded in the page. You see the Edit Launch Configuration window with all the fields populated. Click **Save**, as shown in the following figure.
 
-![](../.gitbook/assets/image052.png)
+![](../.gitbook/assets/image052%20%281%29.png)
 
 * [ ] In the application status toolbar, click the play icon that has the tooltip **Deploy the App from the Workspace** when you hover your cursor over the icon, as shown in the following figure.
 
@@ -430,7 +430,7 @@ You can publish changes to your application directly from the Eclipse Orion Web 
 
 * [ ] You are prompted to confirm that you want to stop and redeploy the application `vy301-xxx-nodesample`. Click **OK**, as shown in the following figure.
 
-![](../.gitbook/assets/image054.png)
+![](../.gitbook/assets/image054%20%281%29.png)
 
 * [ ] Wait until the application is stopped, deployed, and started, as shown in the following figure.
 
@@ -442,7 +442,7 @@ You can publish changes to your application directly from the Eclipse Orion Web 
 
 * [ ] Verify that the updated heading appears. The “Welcome to the sample application!” message in the sample application web page is displayed as shown in the following figure.
 
-![](../.gitbook/assets/image057.png)
+![](../.gitbook/assets/image057%20%281%29.png)
 
 ### Part 10. Automatically push changes to IBM Cloud \(optional\)
 
@@ -462,15 +462,15 @@ To automatically push changes to IBM Cloud, complete the following tasks:
 
 * [ ] Click **OK** to redeploy the application and enable Live Edit mode, as shown in the following figure. Enabling Live Edit mode allocates more memory to the application to enable debugging.
 
-![](../.gitbook/assets/image059.png)
+![](../.gitbook/assets/image059%20%281%29.png)
 
 {% hint style="info" %}
 ✍ The quota for the IBM Cloud Lite account is 256 MB, and applications that have Live Edit enabled require 800+ MB on average; this is the reason why this part of the exercise cannot be performed with an IBM Cloud Lite account. Here is the error message that you receive if you are using an IBM Cloud Lite account.
 
-![](../.gitbook/assets/image060.png)
+![](../.gitbook/assets/image060%20%281%29.png)
 {% endhint %}
 
-* [ ] Confirm that Live Edit mode is enabled, as shown here  ![](../.gitbook/assets/image061.png) .
+* [ ] Confirm that Live Edit mode is enabled, as shown here  ![](../.gitbook/assets/image061%20%281%29.png) .
 
 {% hint style="info" %}
 ✍If you have a synchronization error, restart the application.
@@ -494,7 +494,7 @@ To automatically push changes to IBM Cloud, complete the following tasks:
 
 * [ ] Verify that the updated heading appears in the sample application web page, as shown in the following figure.
 
-![](../.gitbook/assets/image065.png)
+![](../.gitbook/assets/image065%20%281%29.png)
 
 ### Part 11. Cleaning up the application and Continuous Delivery service and tools
 
@@ -539,7 +539,7 @@ In this part, you clean up the application and the Continuous Delivery Toolchain
 
 * [ ] Confirm that you want to delete the routes and click **Delete**, as shown in the following figure.
 
-![](../.gitbook/assets/image075.png)
+![](../.gitbook/assets/image075%20%281%29.png)
 
 * [ ] In the Resource List window, expand **Services** and delete the Continuous Delivery service. Click the Actions menu to the right of the service and select **Delete**, as shown in the following figure.
 
@@ -547,7 +547,7 @@ In this part, you clean up the application and the Continuous Delivery Toolchain
 
 * [ ] Confirm the deletion of the resource, as shown in the following figure.
 
-![](../.gitbook/assets/image077.png)
+![](../.gitbook/assets/image077%20%282%29.png)
 
 ![](../.gitbook/assets/image077%20%281%29.png)
 

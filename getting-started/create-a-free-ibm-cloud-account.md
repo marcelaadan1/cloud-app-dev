@@ -29,7 +29,7 @@ You must use a valid email for signing up to IBM Cloud; IBM Cloud sends you an e
 ‼   ****If you already have an IBM ID associated with your email, you will see the following form instead of the one shown in the previous figure.
 {% endhint %}
 
-![](../.gitbook/assets/image003.png)
+![](../.gitbook/assets/image003%20%282%29.png)
 
  If you already have an IBM Cloud account, click **Log in** to verify that you can access IBM Cloud.
 
@@ -50,7 +50,7 @@ You must use a valid email for signing up to IBM Cloud; IBM Cloud sends you an e
 
 * [ ] Click **Confirm Account.**
 
-![](../.gitbook/assets/image006.jpg)
+![](../.gitbook/assets/image006%20%281%29.jpg)
 
 The IBM Cloud Welcome! page is displayed confirming that you have now activated your IBM Cloud account.
 
