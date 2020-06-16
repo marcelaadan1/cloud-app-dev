@@ -20,9 +20,17 @@
 * [Exercise 2. Developing IBM Cloud applications with IBM Cloud Continuous Delivery](workshop/exercise-2.-developing-ibm-cloud-applications-with-ibm-cloud-continuous-delivery.md)
 * [Exercise 3. IBM Cloud with IBM Cloudant](workshop/exercise-3.-ibm-cloud-with-ibm-cloudant.md)
 
+## Quizzes
+
+* [Unit 1 Quiz](https://forms.gle/eQT82eTVS2M4eQke9)
+
 ## RESOURCES
 
 * [IBM Cloud Docs](https://cloud.ibm.com/docs?tab=all-docs)
 * [IBM Developer](https://developer.ibm.com/)
 * [IBM Cloud FAQs](https://cloud.ibm.com/docs/faqs)
+
+## Survey
+
+* [Course evaluation](https://forms.gle/QKV3ZFpwqoXzKWjSA)
 
